@@ -1,0 +1,6 @@
+{
+  "cpu": {
+    "fqbn": "Seeeduino:samd:seeed_wio_terminal",
+    "port": "/dev/ttyACM0"
+  }
+}

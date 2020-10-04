@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:HOME}/Arduino/libraries/LovyanGFX/**",
+                "${env:HOME}/.arduino15/packages/Seeeduino/hardware/samd/1.7.9/**"
+            ],
+            "defines": [
+                "__SAMD51__",
+                "ARDUINO_WIO_TERMINAL"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [],
+            "forcedInclude": [
+                "${env:HOME}/.arduino15/packages/Seeeduino/hardware/samd/1.7.9/cores/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}
